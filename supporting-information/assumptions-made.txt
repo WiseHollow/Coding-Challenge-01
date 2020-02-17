@@ -1,0 +1,4 @@
+1. If any rows of data in the read file is formatted in an unexpected way, it should be skipped with a log of the error written in the terminal.
+2. The first line of any read file will contain a header, therefore should be skipped without logging an error.
+3. Program should allow user to specify as many files to be read as arguments when running the application, if none are provided, the default NameList1.txt and NameList2.txt should be used.
+4. The average age of the people should be rounded, as a decimal age doesn't provide as much value.
